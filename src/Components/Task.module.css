@@ -16,6 +16,11 @@
   align-items: flex-start;
   transition: all 200ms ease-in-out;
   animation: animateMounting 0.4s;
+  box-shadow: 0px 0px 0px 1px var(--gray-400) inset;
+}
+
+.c-task:has(.c-task__check > input:checked) {
+  box-shadow: 0px 0px 0px 1px var(--gray-500) inset;
 }
 
 .c-task input {
@@ -68,6 +73,11 @@
   font-size: 0.8rem;
   color: var(--gray-100);
   position: absolute;
+}
+
+.c-task__check:has(input:checked) + .c-task__text {
+  text-decoration: line-through;
+  color: var(--gray-300);
 }
 
 .c-task__text {
