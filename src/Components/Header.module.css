@@ -1,0 +1,14 @@
+.c-header {
+  height: 200px;
+  background-color: var(--gray-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -2.7rem;
+}
+
+.c-header__logo {
+  height: 48px;
+  width: 126px;
+  object-fit: contain;
+}

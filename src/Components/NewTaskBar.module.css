@@ -1,0 +1,45 @@
+.c-new-task-bar {
+  display: flex;
+  margin-inline: auto;
+  margin-bottom: 6.4rem;
+}
+
+.c-new-task-bar > *:first-child {
+  flex-grow: 1;
+}
+
+.c-new-task-bar__button {
+  color: var(--gray-100);
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: var(--blue-dark);
+  padding: 1.6rem;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 0.2rem;
+  transition: all 200ms ease-in-out;
+}
+
+.c-new-task-bar__button svg {
+  font-size: 1.6rem;
+}
+
+.c-new-task-bar__button:hover {
+  background-color: var(--blue);
+}
+
+.c-new-task-bar__submit:disabled {
+  max-width: 0;
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+  cursor: not-allowed;
+}
+
+.c-new-task-bar__submit:not(:disabled) {
+  margin-left: 0.8rem;
+  cursor: pointer;
+}

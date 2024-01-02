@@ -1,0 +1,10 @@
+.c-wrapper {
+  max-width: 736px;
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 736px) {
+  .c-wrapper {
+    padding-inline: 0.8rem;
+  }
+}

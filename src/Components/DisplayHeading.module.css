@@ -1,0 +1,28 @@
+.c-display-heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.c-display-heading__counter {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  color: var(--gray-200);
+  font-size: 1.2rem;
+  background-color: var(--gray-400);
+  border-radius: 1rem;
+  text-wrap: nowrap;
+}
+
+.c-display-heading:nth-of-type(1) {
+  color: var(--blue);
+}
+
+.c-display-heading:nth-of-type(2) {
+  color: var(--purple);
+}

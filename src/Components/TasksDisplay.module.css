@@ -1,0 +1,12 @@
+.c-tasks-display__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+
+.c-tasks-display__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+  transition: all 200ms ease-in-out;
+}
