@@ -33,7 +33,6 @@
 
 .c-new-task-bar__submit:disabled {
   max-width: 0;
-  max-height: 0;
   padding: 0;
   overflow: hidden;
   cursor: not-allowed;
